@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gnurT so cute</title>
+    <link rel="stylesheet" href="css/valentine.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+  </head>
+  <body>
+    <div id="valentineQuestion"><b>Cậu tha lỗi cho tớ nhée &gt.&lt</b></div>
+    <button class="answerButton" onclick="location.href='bbi-main/index.html'">
+      Ok nhóo
+    </button>
+    <button class="answerButton" id="noButton">Hong mơ đii</button>
+    <br />
+    <img src="cat.gif" alt="cat asking question" class="responsive" />
+    <!--  -->
+    <div id="heart" hidden>
+      <!-- effects -->
+      <div class="spark spark-1">
+        <svg viewBox="0 0 32 29.6" width="80px" fill="#f29dc6">
+          <path
+            d="M23.4,0c-3.3,0-6.1,1.8-7.4,4.5C14.7,1.8,11.9,0,8.6,0C3.8,0,0,3.9,0,8.8c0,7.3,11.2,12.3,15.3,20.5C20.5,21.1,32,15.6,32,8.8
+            C32,3.9,28.2,0,23.4,0z"
+          />
+        </svg>
+      </div>
+
+      <div class="spark spark-2">
+        <svg viewBox="0 0 32 29.6" width="80px" fill="#f29dc6">
+          <path
+            d="M23.4,0c-3.3,0-6.1,1.8-7.4,4.5C14.7,1.8,11.9,0,8.6,0C3.8,0,0,3.9,0,8.8c0,7.3,11.2,12.3,15.3,20.5C20.5,21.1,32,15.6,32,8.8
+            C32,3.9,28.2,0,23.4,0z"
+          />
+        </svg>
+      </div>
+      <div class="spark spark-3">
+        <svg viewBox="0 0 32 29.6" width="80px" fill="#f29dc6">
+          <path
+            d="M23.4,0c-3.3,0-6.1,1.8-7.4,4.5C14.7,1.8,11.9,0,8.6,0C3.8,0,0,3.9,0,8.8c0,7.3,11.2,12.3,15.3,20.5C20.5,21.1,32,15.6,32,8.8
+            C32,3.9,28.2,0,23.4,0z"
+          />
+        </svg>
+      </div>
+      <div class="spark spark-4">
+        <svg viewBox="0 0 32 29.6" width="80px" fill="#f29dc6">
+          <path
+            d="M23.4,0c-3.3,0-6.1,1.8-7.4,4.5C14.7,1.8,11.9,0,8.6,0C3.8,0,0,3.9,0,8.8c0,7.3,11.2,12.3,15.3,20.5C20.5,21.1,32,15.6,32,8.8
+            C32,3.9,28.2,0,23.4,0z"
+          />
+        </svg>
+      </div>
+
+      <div class="spark spark-5">
+        <svg viewBox="0 0 32 29.6" width="80px" fill="#f29dc6">
+          <path
+            d="M23.4,0c-3.3,0-6.1,1.8-7.4,4.5C14.7,1.8,11.9,0,8.6,0C3.8,0,0,3.9,0,8.8c0,7.3,11.2,12.3,15.3,20.5C20.5,21.1,32,15.6,32,8.8
+            C32,3.9,28.2,0,23.4,0z"
+          />
+        </svg>
+      </div>
+      <div class="spark spark-6">
+        <svg viewBox="0 0 32 29.6" width="80px" fill="#f29dc6">
+          <path
+            d="M23.4,0c-3.3,0-6.1,1.8-7.4,4.5C14.7,1.8,11.9,0,8.6,0C3.8,0,0,3.9,0,8.8c0,7.3,11.2,12.3,15.3,20.5C20.5,21.1,32,15.6,32,8.8
+            C32,3.9,28.2,0,23.4,0z"
+          />
+        </svg>
+      </div>
+      <div class="spark spark-7">
+        <svg viewBox="0 0 32 29.6" width="80px" fill="#f29dc6">
+          <path
+            d="M23.4,0c-3.3,0-6.1,1.8-7.4,4.5C14.7,1.8,11.9,0,8.6,0C3.8,0,0,3.9,0,8.8c0,7.3,11.2,12.3,15.3,20.5C20.5,21.1,32,15.6,32,8.8
+            C32,3.9,28.2,0,23.4,0z"
+          />
+        </svg>
+      </div>
+<!--  -->
+
+    <script>
+      document
+        .getElementById("noButton")
+        .addEventListener("click", function () {
+          var yesButton = document.querySelector(
+            'button[onclick*="bbi-main/index.html"]'
+          );
+          var currentFontSize = parseInt(
+            window.getComputedStyle(yesButton).fontSize
+          );
+          yesButton.style.fontSize = currentFontSize + 10 + "px"; // Increase font size by 5px
+        });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
